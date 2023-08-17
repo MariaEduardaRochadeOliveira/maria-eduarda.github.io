@@ -27,6 +27,7 @@
     </style>
   </head>
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+    
     <!--Nav-->
     <nav id="header" class="fixed w-full z-30 top-0 text-white">
       <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
@@ -65,9 +66,12 @@
       </div>
       <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
     </nav>
+
     <!--Hero-->
     <div class="pt-18 static">    
-        <img src="profile.jpg">
+        
+        <img class="w-full" src="profile.jpg">
+
         <div class="absolute bottom-12 right-12 container max-w-5xl mx-auto m-8">         
           <div class="flex flex-wrap">
             <div class="w-5/6 sm:w-1/2 p-6">
@@ -77,14 +81,19 @@
               <h4 class="text-5xl text-white font-bold leading-none mb-3 ">
                 Hey! I'm Maria Eduarda 
               </h4>
-              <h4 class="text-4xl text-white font-bold leading-none mb-3 bg-indigo-600" >
-                communication designer, education advocate & future social entrepreneur
-              </h4>
-              </p>
+              <div class="bg-indigo-600">
+                <h4 class="text-4xl text-white font-bold leading-none mb-1" >
+                  communication designer, education advocate &
+                </h4>
+                <h4 class="text-4xl text-white font-bold leading-none" >
+                  future social entrepreneur
+                </h4>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+    </div>
+
     <!-- About me -->
     <section class="bg-white border-b py-8">
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
@@ -93,7 +102,7 @@
       <div class="w-full mb-4">
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
-      <div class="container max-w-7xl mx-auto m-8">
+      <div class="container max-w-9xl mx-auto m-8">
         <div class="flex flex-wrap">
           <div class="w-full sm:w-1/2 p-6">
             <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3 hidden">
@@ -111,13 +120,14 @@
           </div>
           <div class="w-full sm:w-1/2 p-6">
             <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/y6hfaACbMWw" frameborder="0" allowfullscreen></iframe> -->
-            <video width="720" height="450" controls autoplay>
+            <video class="w-full h-100" controls autoplay>
               <source src="about_me_video" type="video/mp4"/>
             </video>
           </div>
         </div>
       </div>
     </section>
+
     <!--Carrousel news-->
     <section class="bg-white border-b py-8">
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
@@ -132,7 +142,7 @@
           
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
               <a href="https://www1.folha.uol.com.br/amp/folha-social-mais/2023/07/ashoka-seleciona-jovens-para-atuacao-global-com-causas-emergentes.shtml">
-                <img class="w-full" src="news/1.jpg">
+                <img class="w-full" src="news/1.png">
               </a>
               <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2 text-gray-500">
@@ -273,72 +283,78 @@
         </div>
       </div>
     </section>
+
     <!-- Vídeo Compilado -->
+    <section class="bg-black border-b py-8">
+      <div class="container w-full mx-auto m-8">
+          <iframe class="embed-responsive-item w-full h-50" id="ytplayer" type="text/html" width="1024" height="620" frameborder="0" src="https://www.youtube.com/embed/LMoKS5UrnJ0?version=3&loop=1&playlist=LMoKS5UrnJ0" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!--Carrousel Public Speaking & Interviews-->
     <section class="bg-white border-b py-8">
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-        Compilated Video
+        Public Speaking & Interviews
       </h2>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
-       <div class="flex space-x-8 w-full">
-        <div class="flex  space-x-8">
-            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/y6hfaACbMWw" frameborder="0" allowfullscreen></iframe> -->
-            <video width="" height="" controls autoplay>
-              <source src="about_me_video" type="video/mp4"/>
-            </video>
-          </div>
+      <div class="container max-w-8xl mx-auto m-8">
+        <div class="flex overflow-x-scroll space-x-8 w-1/1">
+          <section class="flex-shrink-0 m-6">      
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-50 h-50" src="public_speaking/1.png">      
+            </div>
+          </section>  
+          <section class="flex-shrink-0 m-6">      
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full" src="public_speaking/2.png">      
+            </div>
+          </section>
+          <section class="flex-shrink-0 m-6">      
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full" src="public_speaking/3.png">      
+            </div>
+          </section>
+          <section class="flex-shrink-0 m-6">      
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full" src="public_speaking/4.png">      
+            </div>
+          </section>
+          <section class="flex-shrink-0 m-6">      
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full" src="public_speaking/5.png">      
+            </div>
+          </section>     
+          <section class="flex-shrink-0 m-6">      
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full" src="public_speaking/6.png">      
+            </div>
+          </section>  
+          <section class="flex-shrink-0 m-6">      
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full" src="public_speaking/7.png">      
+            </div>
+          </section>
+        </div>
       </div>
+      
     </section>
-<!--Carrousel news-->
-<section class="bg-white border-b py-8">
-  <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-    Public Speaking & Interviews
-  </h2>
-  <div class="w-full mb-4">
-    <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-  </div>
-  <div class="container max-w-8xl mx-auto m-8">
-    <div class="flex overflow-x-scroll space-x-8 w-1/1">
-      <section class="flex-shrink-0 m-6">      
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="public_speaking/1.jpg">      
-        </div>
-      </section>  
-      <section class="flex-shrink-0 m-6">      
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="public_speaking/2.jpg">      
-        </div>
-      </section>
-      <section class="flex-shrink-0 m-6">      
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="public_speaking/3.jpg">      
-        </div>
-      </section>
-      <section class="flex-shrink-0 m-6">      
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="public_speaking/4.jpg">      
-        </div>
-      </section>
-      <section class="flex-shrink-0 m-6">      
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="public_speaking/5.jpg">      
-        </div>
-      </section>     
-      <section class="flex-shrink-0 m-6">      
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="public_speaking/6.jpg">      
-        </div>
-      </section>  
-      <section class="flex-shrink-0 m-6">      
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="public_speaking/7.jpg">      
-        </div>
-      </section>
-    </div>
-  </div>
-  
-</section>
+
+    <!-- ExtraCurriculars -->
+    <section class="bg-white border-b py-8">
+      <div class="container max-w-2xl mx-auto m-8">
+        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white bg-indigo-600">
+          Extracurriculars
+        </h2>
+      </div>
+      <section class="bg-black border-b py-8">
+        <div class="container w-full mx-auto m-8">
+          <iframe class="embed-responsive-item w-full h-50" id="ytplayer" type="text/html" width="1024" height="620" frameborder="0" src="https://www.youtube.com/embed/LMoKS5UrnJ0?version=3&loop=1&playlist=LMoKS5UrnJ0" frameborder="0" allowfullscreen></iframe>
+      </div>
+      </section>      
+    </section>
+
     <!--Footer-->
     <footer class="bg-white">
       <div class="container mx-auto px-8">
@@ -405,9 +421,11 @@
       </div>
       <a href="https://www.freepik.com/free-photos-vectors/background" class="text-gray-500">Background vector created by freepik - www.freepik.com</a>
     </footer>
+
     <!-- jQuery if you need it
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   -->
+
     <script>
       var scrollpos = window.scrollY;
       var header = document.getElementById("header");
