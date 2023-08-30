@@ -14,8 +14,7 @@
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
     <!--Replace with your tailwind.css once created-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
-    <!--Fontstyle for carroussel-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
     <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
     <style>
       .gradient-obmlibras{
@@ -28,9 +27,20 @@
         background: linear-gradient(90deg, #0336c3 0%, #ffffff 100%);
       }
 
-      .profileimg {
-        background: url('profile.jpg');
+      /*Iphone 12 pro*/
+      @media screen and (max-width: 390px) {
+        .presentation {
+          visibility: hidden;
+        }
       }
+
+      /* Galaxy s20 */
+      @media screen and (max-width: 412px) {
+        .presentation {
+          visibility: hidden;
+        }
+      }
+
     </style>
   </head>
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
@@ -76,11 +86,9 @@
         
         <img class="w-full" src="profile.jpg">
 
-        <div class="absolute bottom-12 right-12 container max-w-5xl mx-auto m-8">         
+        <div class="presentation absolute bottom-12 right-12 container max-w-5xl mx-auto m-8">         
           <div class="flex flex-wrap">
-            <div class="w-5/6 sm:w-1/2 p-6">
-              
-            </div>
+            <div class="w-5/6 sm:w-1/2 p-6"></div>
             <div class="w-full md:w-1/2 p-1 text-right">
               <h4 class="text-5xl text-white font-bold leading-none mb-3 ">
                 Hey! I'm Maria Eduarda 
@@ -445,7 +453,7 @@
         </div>
       </section>    
     </section>
-    
+
     <!--Extracurriculars Hortitude-->
     <section class="bg-white border-b py-8">
       <section class="bg-white border-b py-8">
@@ -881,32 +889,6 @@
       <a href="https://www.freepik.com/free-photos-vectors/background" class="text-gray-500">Background vector created by freepik - www.freepik.com</a>
     </footer>
 
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <script>
-      document.addEventListener("alpine:init", () => {
-        Alpine.data("imageSlider", () => ({
-          currentIndex: 1,
-          images: [
-            "hortitude/logo.jpeg",  
-            "hortitude/1.jpg",
-            "hortitude/2.jpg",
-            "hortitude/3.jpg",
-            "hortitude/4.jpg"
-
-          ],
-          previous() {
-            if (this.currentIndex > 1) {
-              this.currentIndex = this.currentIndex - 1;
-            }
-          },
-          forward() {
-            if (this.currentIndex < this.images.length) {
-              this.currentIndex = this.currentIndex + 1;
-            }
-          },
-        }));
-      });
-    </script>
     <script>
       var scrollpos = window.scrollY;
       var header = document.getElementById("header");
