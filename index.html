@@ -1,1098 +1,1153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>
-      Maria Eduarda Portfolio
-    </title>
-    <meta name="description" content="Maria Eduarda Portfolio" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
 
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
-    <!--Replace with your tailwind.css once created-->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
-    
-    <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
-    <style>
-      .gradient-obmlibras{
-        background: radial-gradient(#4a97fa, #0c6ae5);
-      }
-      .gradient-prudentials{
-        background: radial-gradient(#024cad, #001c40);
-      }
-      .gradient {
-        background: linear-gradient(90deg, #0336c3 0%, #ffffff 100%);
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>
+    Maria Eduarda Portfolio
+  </title>
+  <meta name="description" content="Maria Eduarda Portfolio" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
 
-      /*Iphone 12 pro*/
-      @media screen and (max-width: 390px) {
-        .presentation {
-          visibility: hidden;
-        }
-      }
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  <!--Replace with your tailwind.css once created-->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
 
-      /* Galaxy s20 */
-      @media screen and (max-width: 412px) {
-        .presentation {
-          visibility: hidden;
-        }
-      }
+  <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
+  <style>
+    .gradient-obmlibras {
+      background: radial-gradient(#4a97fa, #0c6ae5);
+    }
 
-      /* G9 power */
-      @media screen and (max-width: 720px) {
-        .presentation {
-          visibility: hidden;
-        }
-      }
+    .gradient-prudentials {
+      background: radial-gradient(#024cad, #001c40);
+    }
 
-    </style>
-  </head>
-  <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
-    
-    <!--Nav-->
-    <nav id="header" class="fixed w-full z-30 top-0 text-white">
-      <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
-        <div class="pl-4 flex items-center">
-          <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-            <!--Icon from: http://www.potlabicons.com/ -->
-            Maria Eduarda Rocha de Oliveira
-          </a>
-        </div>
-        <div class="block lg:hidden pr-4">
-          <button id="nav-toggle" class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-            <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-              <title>Menu</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
-          </button>
-        </div>
-        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
-          <ul class="list-reset lg:flex justify-end flex-1 items-center">
-            <li class="mr-3">
-              <a class="inline-block py-2 px-4 text-black font-bold no-underline hidden" href="#">Active</a>
-            </li>
-            <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4 hidden" href="#">link</a>
-            </li>
-            <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4 hidden" href="#">link</a>
-            </li>
-          </ul>
-            <a id="navAction" href="https://instagram.com/du_da_s2?igshid=MzRlODBiNWFlZA==" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">Let's talk</a>
+    .gradient {
+      background: linear-gradient(90deg, #0336c3 0%, #ffffff 100%);
+    }
+
+    /*Iphone 12 pro*/
+    @media screen and (max-width: 390px) {
+      .presentation {
+        visibility: hidden;
+      }
+    }
+
+    /* Galaxy s20 */
+    @media screen and (max-width: 412px) {
+      .presentation {
+        visibility: hidden;
+      }
+    }
+
+    /* G9 power */
+    @media screen and (max-width: 720px) {
+      .presentation {
+        visibility: hidden;
+      }
+    }
+  </style>
+</head>
+
+<body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+
+  <!--Nav-->
+  <nav id="header" class="fixed w-full z-30 top-0 text-white">
+    <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+      <div class="pl-4 flex items-center">
+        <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+          <!--Icon from: http://www.potlabicons.com/ -->
+          Maria Eduarda Rocha de Oliveira
+        </a>
+      </div>
+      <div class="block lg:hidden pr-4">
+        <button id="nav-toggle"
+          class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+        id="nav-content">
+        <ul class="list-reset lg:flex justify-end flex-1 items-center">
+          <li class="mr-3">
+            <a class="inline-block py-2 px-4 text-black font-bold no-underline hidden" href="#">Active</a>
+          </li>
+          <li class="mr-3">
+            <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4 hidden"
+              href="#">link</a>
+          </li>
+          <li class="mr-3">
+            <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4 hidden"
+              href="#">link</a>
+          </li>
+        </ul>
+        <a id="navAction" href="https://instagram.com/du_da_s2?igshid=MzRlODBiNWFlZA=="
+          class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">Let's
+          talk</a>
+      </div>
+    </div>
+    <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+  </nav>
+
+  <!--Hero-->
+  <div class="pt-18 static">
+
+    <img class="w-full" src="profile.jpg">
+
+    <div class="presentation absolute bottom-12 right-12 container max-w-5xl mx-auto m-8">
+      <div class="flex flex-wrap">
+        <div class="w-5/6 sm:w-1/2 p-6"></div>
+        <div class="w-full md:w-1/2 p-1 text-right">
+          <h4 class="text-5xl text-white font-bold leading-none mb-3 ">
+            Hey! I'm Maria Eduarda
+          </h4>
+          <div class="bg-indigo-600">
+            <h4 class="text-4xl text-white font-bold leading-none mb-1">
+              communication designer, education advocate &
+            </h4>
+            <h4 class="text-4xl text-white font-bold leading-none">
+              future social entrepreneur
+            </h4>
+          </div>
         </div>
       </div>
-      <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
-    </nav>
+    </div>
+  </div>
 
-    <!--Hero-->
-    <div class="pt-18 static">    
-        
-        <img class="w-full" src="profile.jpg">
+  <!-- About me -->
+  <section class="bg-white border-b py-8">
+    <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+      About me
+    </h2>
+    <div class="w-full mb-4">
+      <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+    </div>
+    <div class="container max-w-7xl mx-auto m-8">
+      <div class="flex flex-wrap">
+        <div class="w-full sm:w-1/2 p-6">
+          <h3 class="text-1xl text-gray-800 font-bold leading-none mb-3 hidden">
+            Title
+          </h3>
+          <p class="text-gray-600 text-1xl text-justify mb-8">
+            Hey! I am Maria Eduarda Rocha de Oliveira, born in Ribeirão Preto, Brazil.
+            At the age of 13 I started my journey in social actions by volunteering at
+            the church to help low-income people in my community ,and this was just the beginning of my story !
+            <b>In my elementary school I participated in a math competition that awakened
+              my passion for education</b>, where I started, even at such a young age, to be a
+            math mentor helping my colleagues in school. As a grown woman, <b>I discovered
+              that I could be the change I wanted to see in my society through social entrepreneurship.</b>
+            Since then I have been acting as a social leader founding my own projects focused on education and
+            youth leadership. Nowadays I have international recognition, support from more than 11
+            companies and institutions such as the US Embassy in my social projects. Currently,
+            <b>I aspire to enhance the educational scenario of Brazil to support the rise of young leaders.</b>
+            <br />
+          </p>
+        </div>
+        <div class="w-full sm:w-1/2 p-6">
+          <iframe class="embed-responsive-item w-full h-50" id="ytplayer3" type="text/html" width="1024" height="320"
+            frameborder="0" src="https://www.youtube.com/embed/leojGj5_NA8?&loop=1&playlist=leojGj5_NA8" frameborder="0"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="presentation absolute bottom-12 right-12 container max-w-5xl mx-auto m-8">         
-          <div class="flex flex-wrap">
-            <div class="w-5/6 sm:w-1/2 p-6"></div>
-            <div class="w-full md:w-1/2 p-1 text-right">
-              <h4 class="text-5xl text-white font-bold leading-none mb-3 ">
-                Hey! I'm Maria Eduarda 
-              </h4>
-              <div class="bg-indigo-600">
-                <h4 class="text-4xl text-white font-bold leading-none mb-1" >
-                  communication designer, education advocate &
-                </h4>
-                <h4 class="text-4xl text-white font-bold leading-none" >
-                  future social entrepreneur
-                </h4>
+  <!--Carrousel news-->
+  <section class="bg-white border-b py-8">
+    <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+      News
+    </h2>
+    <div class="w-full mb-4">
+      <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+    </div>
+    <div class="container max-w-8xl mx-auto m-8">
+      <div class="flex overflow-x-scroll space-x-8 w-1/1">
+        <section class="flex-shrink-0 m-6">
+
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <a
+              href="https://www1.folha.uol.com.br/amp/folha-social-mais/2023/07/ashoka-seleciona-jovens-para-atuacao-global-com-causas-emergentes.shtml">
+              <img class="w-full" src="news/1.png">
+            </a>
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 text-gray-500">
+                <p class="text-gray-700 text-base">
+                  Ashoka elege jovens para atuação global com causas emergentes
+                </p>
               </div>
             </div>
           </div>
-        </div>
+
+        </section>
+
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <a
+              href="https://g1.globo.com/sp/ribeirao-preto-franca/playlist/videos-tudo-sobre-ribeirao-preto-franca-e-regiao.ghtml#video-10506646-id">
+              <img class="w-full" src="news/2.jpg">
+            </a>
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 text-gray-500">
+                <p class="text-gray-700 text-base">
+                  VÍDEOS: Tudo sobre Ribeirão Preto, Franca e região
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <a href="https://www.youtube.com/watch?v=0t_8L5mEqEI">
+              <img class="w-full" src="news/3.jpg">
+            </a>
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 text-gray-500">
+                <p class="text-gray-700 text-base">
+                  Conversa Pública - Premio Jovens Visionários.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <a
+              href="https://observatorio3setor.org.br/noticias/premio-reconhece-internacionalmente-jovens-empreendedores-brasileiros/">
+              <img class="w-full" src="news/4.jpg">
+            </a>
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 text-gray-500">
+                <p class="text-gray-700 text-base">
+                  Prêmio reconhece internacionalmente jovens empreendedores brasileiros
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <a href="https://www.ashoka.org/en-us/changemaker/maria-eduarda">
+              <img class="w-full" src="news/5.jpg">
+            </a>
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 text-gray-500">
+                <p class="text-gray-700 text-base">
+                  Maria Eduarda is working towards including people with disabilities in extracurricular activities
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <a
+              href="https://www.revistacobertura.com.br/noticias/responsabilidade-social/premio-prudential-jovens-visionarios-valoriza-o-empreendedorismo-brasileiro/">
+              <img class="w-full" src="news/6.jpg">
+            </a>
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 text-gray-500">
+                <p class="text-gray-700 text-base">
+                  Prêmio Prudential Jovens Visionários valoriza o empreendedorismo brasileiro - Revista Cobertura
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <a
+              href="https://www.acidadeon.com/ribeiraopreto/cotidiano/estudante-de-ribeirao-e-selecionada-para-intercambio-nos-eua/">
+              <img class="w-full" src="news/7.jpg">
+            </a>
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 text-gray-500">
+                <p class="text-gray-700 text-base">
+                  Estudante de Ribeirão é selecionada para intercâmbio nos EUA - ACidadeON Ribeirão Preto
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <a href="https://www.instagram.com/reel/CrbC3u_uVwM/?igshid=MzRlODBiNWFlZA==">
+              <img class="w-full" src="news/8.png">
+            </a>
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 text-gray-500">
+                <p class="text-gray-700 text-base">
+                  Jovem Embaixadora Maria Eduarda Rocha, de Ribeirão Preto (SP), que criou a primeira olimpíada de
+                  matemática para pessoas surdas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <a href="https://nos.insightnet.com.br/prudential-premia-projetos-inovadores/">
+              <img class="w-full" src="news/9.png">
+            </a>
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 text-gray-500">
+                <p class="text-gray-700 text-base">
+                  Prudential premia projetos inovadores - Revista Nós
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+      </div>
+      <!-- Vídeo Compilado -->
+      <div class="container w-full mx-auto m-8">
+        <iframe class="embed-responsive-item w-full h-50" id="ytplayer" type="text/html" width="1024" height="620"
+          frameborder="0" src="https://www.youtube.com/embed/LMoKS5UrnJ0?&loop=1&playlist=LMoKS5UrnJ0" frameborder="0"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!--Carrousel Public Speaking & Interviews-->
+  <section class="bg-white border-b py-8">
+    <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+      Public Speaking & Interviews
+    </h2>
+    <div class="w-full mb-4">
+      <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+    </div>
+    <div class="container max-w-8xl mx-auto m-8">
+      <div class="flex overflow-x-scroll space-x-8 w-1/1">
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-50 h-50" src="public_speaking/1.png" onclick="showModal('public_speaking/1.png')" />
+          </div>
+        </section>
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="public_speaking/2.png" onclick="showModal('public_speaking/2.png')" />
+          </div>
+        </section>
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="public_speaking/3.png" onclick="showModal('public_speaking/3.png')" />
+          </div>
+        </section>
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="public_speaking/4.png" onclick="showModal('public_speaking/4.png')" />
+          </div>
+        </section>
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="public_speaking/5.png" onclick="showModal('public_speaking/5.png')" />
+          </div>
+        </section>
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="public_speaking/6.png" onclick="showModal('public_speaking/6.png')" />
+          </div>
+        </section>
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="public_speaking/7.png" onclick="showModal('public_speaking/7.png')" />
+          </div>
+        </section>
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="public_speaking/8.png" onclick="showModal('public_speaking/8.png')" />
+          </div>
+        </section>
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="public_speaking/9.png" onclick="showModal('public_speaking/9.png')" />
+          </div>
+        </section>
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="public_speaking/10.png" onclick="showModal('public_speaking/10.png')" />
+          </div>
+        </section>
+      </div>
     </div>
 
-    <!-- About me -->
-    <section class="bg-white border-b py-8">
-      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-        About me
+  </section>
+
+  <!-- ExtraCurriculars title-->
+  <section class="bg-white border-b py-8">
+    <div class="container max-w-2xl mx-auto m-8">
+      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white bg-indigo-600">
+        Extracurriculars!
       </h2>
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-      </div>
-      <div class="container max-w-7xl mx-auto m-8">
-        <div class="flex flex-wrap">
-          <div class="w-full sm:w-1/2 p-6">
-            <h3 class="text-1xl text-gray-800 font-bold leading-none mb-3 hidden">
-             Title
-            </h3>
-            <p class="text-gray-600 text-1xl text-justify mb-8">
-              Hey! I am Maria Eduarda Rocha de Oliveira, born in Ribeirão Preto, Brazil. 
-              At the age of 13 I started my journey in social actions by volunteering at 
-              the church to help low-income people in my community ,and this was just the beginning of my story ! 
-              <b>In my elementary school  I participated in a math competition that awakened 
-              my passion for education</b>, where I started, even at such a young age, to be a
-               math mentor helping  my colleagues in school. As a grown woman, <b>I discovered 
-               that I could be the change I wanted to see in my society through social entrepreneurship.</b> 
-               Since then I have been acting as a social leader founding my own projects focused on education and
-                youth leadership. Nowadays I have international recognition, support from more than 11 
-                companies and institutions such as the US Embassy in my social projects. Currently, 
-               <b>I aspire to enhance the educational scenario of Brazil to support the rise of young leaders.</b>
-              <br />
-            </p>
-          </div>
-          <div class="w-full sm:w-1/2 p-6">
-            <iframe class="embed-responsive-item w-full h-50" id="ytplayer3" type="text/html" width="1024" height="320" frameborder="0" src="https://www.youtube.com/embed/leojGj5_NA8?&loop=1&playlist=leojGj5_NA8" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
+    </div>
+
+  </section>
+
+  <!--Extracurriculars OBMLibras-->
+  <section class="bg-white border-b py-8">
+    <section class="bg-white border-b py-8">
+      <div class="container w-full mx-auto m-8">
+        <iframe class="embed-responsive-item w-full h-50" id="ytplayer3" type="text/html" width="1024" height="620"
+          frameborder="0" src="https://www.youtube.com/embed/5Q3NRtq-cmE?&loop=1&playlist=5Q3NRtq-cmE" frameborder="0"
+          allowfullscreen></iframe>
       </div>
     </section>
-
-    <!--Carrousel news-->
-    <section class="bg-white border-b py-8">
-      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-        News
-      </h2>
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+    <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+      OBMLibras
+    </h2>
+    <div class="w-full mb-4">
+      <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+    </div>
+    <div class="container max-w-7xl mx-auto m-8">
+      <div class="flex flex-wrap">
+        <div class="w-full sm:w-1/2 p-6">
+          <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3 hidden">
+            Title
+          </h3>
+          <p class="text-gray-600 text-1xl text-justify m-8">
+            During my gap year, I co-founded the social project OBMLibras, <b>the first mathematics
+              olympiad in sign language of Brazil</b>. In partnership with more than 10 companies and the US Embassy, we
+            offer awards such as medals, book kits, summer programs at universities in Brazil, and scholarships
+            for academic courses in sign language. <b>With international recognition</b>, in two years we have already
+            <b>impacted more than 3 thousand deaf students from 16 Brazilian states and received 26 thousand brazilian
+              reais of investment</b>. Furthermore, we are also developing a Physics and Astronomy Olympiad, once again,
+            being the first in Brazil to operate in this segment for people with disabilities.
+          </p>
+        </div>
+        <div class="w-full sm:w-1/2 p-6">
+          <section class="flex-shrink-0">
+            <div class="container m-8">
+              <img class="w-full" src="obmlibras/logo.png" style="width:500px; height: 350px;">
+            </div>
+          </section>
+        </div>
       </div>
-      <div class="container max-w-8xl mx-auto m-8">
+    </div>
+    <!--Galeria Obmlibras-->
+    <section class="mb-8">
+      <div class="container max-w-8xl mx-auto">
         <div class="flex overflow-x-scroll space-x-8 w-1/1">
           <section class="flex-shrink-0 m-6">
-          
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
-              <a href="https://www1.folha.uol.com.br/amp/folha-social-mais/2023/07/ashoka-seleciona-jovens-para-atuacao-global-com-causas-emergentes.shtml">
-                <img class="w-full" src="news/1.png">
-              </a>
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2 text-gray-500">
-                  <p class="text-gray-700 text-base">
-                    Ashoka elege jovens para atuação global com causas emergentes
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-          </section>   
-          
-          <section class="flex-shrink-0 m-6">          
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-              <a href="https://g1.globo.com/sp/ribeirao-preto-franca/playlist/videos-tudo-sobre-ribeirao-preto-franca-e-regiao.ghtml#video-10506646-id">
-                <img class="w-full" src="news/2.jpg">
-              </a>
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2 text-gray-500">
-                  <p class="text-gray-700 text-base">
-                    VÍDEOS: Tudo sobre Ribeirão Preto, Franca e região
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-          </section>   
-         
-          <section class="flex-shrink-0 m-6">          
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-              <a href="https://www.youtube.com/watch?v=0t_8L5mEqEI">
-                <img class="w-full" src="news/3.jpg">
-              </a>
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2 text-gray-500">
-                  <p class="text-gray-700 text-base">
-                    Conversa Pública - Premio Jovens Visionários.
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-          </section>
-
-          <section class="flex-shrink-0 m-6">          
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-              <a href="https://observatorio3setor.org.br/noticias/premio-reconhece-internacionalmente-jovens-empreendedores-brasileiros/">
-                <img class="w-full" src="news/4.jpg">
-              </a>
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2 text-gray-500">
-                  <p class="text-gray-700 text-base">
-                   Prêmio reconhece internacionalmente jovens empreendedores brasileiros
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-          </section>  
-          
-          <section class="flex-shrink-0 m-6">          
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-              <a href="https://www.ashoka.org/en-us/changemaker/maria-eduarda">
-                <img class="w-full" src="news/5.jpg">
-              </a>
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2 text-gray-500">
-                  <p class="text-gray-700 text-base">
-                    Maria Eduarda is working towards including people with disabilities in extracurricular activities
-                  </p>
-                </div>
-              </div>
-            </div>            
-          </section>  
-          
-          <section class="flex-shrink-0 m-6">          
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-              <a href="https://www.revistacobertura.com.br/noticias/responsabilidade-social/premio-prudential-jovens-visionarios-valoriza-o-empreendedorismo-brasileiro/">
-                <img class="w-full" src="news/6.jpg">
-              </a>
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2 text-gray-500">
-                  <p class="text-gray-700 text-base">
-                    Prêmio Prudential Jovens Visionários valoriza o empreendedorismo brasileiro - Revista Cobertura
-                  </p>
-                </div>
-              </div>
-            </div>            
-          </section>  
-
-          <section class="flex-shrink-0 m-6">          
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-              <a href="https://www.acidadeon.com/ribeiraopreto/cotidiano/estudante-de-ribeirao-e-selecionada-para-intercambio-nos-eua/">
-                <img class="w-full" src="news/7.jpg">
-              </a>
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2 text-gray-500">
-                  <p class="text-gray-700 text-base">
-                    Estudante de Ribeirão é selecionada para intercâmbio nos EUA - ACidadeON Ribeirão Preto
-                  </p>
-                </div>
-              </div>
-            </div>            
-          </section>
-
-          <section class="flex-shrink-0 m-6">          
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-              <a href="https://www.instagram.com/reel/CrbC3u_uVwM/?igshid=MzRlODBiNWFlZA==">
-                <img class="w-full" src="news/8.png">
-              </a>
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2 text-gray-500">
-                  <p class="text-gray-700 text-base">
-                    Jovem Embaixadora Maria Eduarda Rocha, de Ribeirão Preto (SP), que criou a primeira olimpíada de matemática para pessoas surdas.
-                  </p>
-                </div>
-              </div>
-            </div>            
-          </section>
-
-          <section class="flex-shrink-0 m-6">          
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-              <a href="https://nos.insightnet.com.br/prudential-premia-projetos-inovadores/">
-                <img class="w-full" src="news/9.png">
-              </a>
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2 text-gray-500">
-                  <p class="text-gray-700 text-base">
-                    Prudential premia projetos inovadores - Revista Nós
-                  </p>
-                </div>
-              </div>
-            </div>            
-          </section>
-
-
-
-        </div>
-         <!-- Vídeo Compilado -->
-        <div class="container w-full mx-auto m-8">
-          <iframe class="embed-responsive-item w-full h-50" id="ytplayer" type="text/html" width="1024" height="620" frameborder="0" src="https://www.youtube.com/embed/LMoKS5UrnJ0?&loop=1&playlist=LMoKS5UrnJ0" frameborder="0" allowfullscreen></iframe>
-      </div>
-      </div>
-    </section>
-
-    <!--Carrousel Public Speaking & Interviews-->
-    <section class="bg-white border-b py-8">
-      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-        Public Speaking & Interviews
-      </h2>
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-      </div>
-      <div class="container max-w-8xl mx-auto m-8">
-        <div class="flex overflow-x-scroll space-x-8 w-1/1">
-          <section class="flex-shrink-0 m-6">      
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-50 h-50" src="public_speaking/1.png">      
-            </div>
-          </section>  
-          <section class="flex-shrink-0 m-6">      
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="public_speaking/2.png">      
+              <img class="w-full" src="obmlibras/1.png" style="width:600px; height:350px;" onclick="showModal('obmlibras/1.png')" />
             </div>
           </section>
-          <section class="flex-shrink-0 m-6">      
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="public_speaking/3.png">      
+          <section class="flex-shrink-0 m-6">
+            <div class="max-w-sm rounded overflow-hidden shadow-lg" >
+              <img class="w-full" src="obmlibras/2.png" style="width:600px; height:350px;" onclick="showModal('obmlibras/2.png')" />
             </div>
           </section>
-          <section class="flex-shrink-0 m-6">      
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="public_speaking/4.png">      
+          <section class="flex-shrink-0 m-6">
+            <div class="max-w-sm rounded overflow-hidden shadow-lg" >
+              <img class="w-full" src="obmlibras/3.png" style="width:600px; height:350px;" onclick="showModal('obmlibras/3.png')" />
             </div>
           </section>
-          <section class="flex-shrink-0 m-6">      
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="public_speaking/5.png">      
-            </div>
-          </section>     
-          <section class="flex-shrink-0 m-6">      
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="public_speaking/6.png">      
-            </div>
-          </section>  
-          <section class="flex-shrink-0 m-6">      
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="public_speaking/7.png">      
+          <section class="flex-shrink-0 m-6">
+            <div class="max-w-sm rounded overflow-hidden shadow-lg" >
+              <img class="w-full" src="obmlibras/4.png" style="width:600px; height:350px;" onclick="showModal('obmlibras/4.png')" />
             </div>
           </section>
-          <section class="flex-shrink-0 m-6">      
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="public_speaking/8.png">      
+          <section class="flex-shrink-0 m-6">
+            <div class="max-w-sm rounded overflow-hidden shadow-lg" >
+              <img class="w-full" src="obmlibras/5.png" style="width:600px; height:350px;" onclick="showModal('obmlibras/5.png')" />
             </div>
           </section>
-          <section class="flex-shrink-0 m-6">      
+          <section class="flex-shrink-0 m-6">
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="public_speaking/9.png">      
+              <img class="w-full" src="obmlibras/6.png" style="width:600px; height:350px;" onclick="showModal('obmlibras/6.png')" />
             </div>
           </section>
-          <section class="flex-shrink-0 m-6">      
+          <section class="flex-shrink-0 m-6">
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="public_speaking/10.png">      
+              <img class="w-full" src="obmlibras/7.png" style="width:600px; height:350px;" onclick="showModal('obmlibras/7.png')" />
+            </div>
+          </section>
+          <section class="flex-shrink-0 m-6">
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+              <img class="w-full" src="obmlibras/8.png" style="width:600px; height:350px;" onclick="showModal('obmlibras/8.png')" />
+            </div>
+          </section>
+          <section class="flex-shrink-0 m-6">
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+              <img class="w-full" src="obmlibras/9.png" style="width:600px; height:350px;" onclick="showModal('obmlibras/9.png')" />
+            </div>
+          </section>
+          <section class="flex-shrink-0 m-6">
+            <div class="max-w-sm rounded overflow-hidden shadow-lg" >
+            <img class="w-full" src="obmlibras/10.png"style="width:600px; height:350px;" onclick="showModal('obmlibras/10.png')" />
+            </div>
+          </section>
+          <section class="flex-shrink-0 m-6">
+            <div class="max-w-sm rounded overflow-hidden shadow-lg" >
+            <img class="w-full" src="obmlibras/11.png" style="width:600px; height:350px;" onclick="showModal('obmlibras/11.png')" />
+            </div>
+          </section>
+          <section class="flex-shrink-0 m-6">
+            <div class="max-w-sm rounded overflow-hidden shadow-lg" >
+            <img class="w-full" src="obmlibras/12.png" style="width:600px; height:350px;" onclick="showModal('obmlibras/12.png')" />
+            </div>
+          </section>
+          <section class="flex-shrink-0 m-6">
+            <div class="max-w-sm rounded overflow-hidden shadow-lg" >
+            <img class="w-full" src="obmlibras/13.png" style="width:600px; height:350px;" onclick="showModal('obmlibras/13.png')" />
+            </div>
+          </section>
+          <section class="flex-shrink-0 m-6">
+            <div class="max-w-sm rounded overflow-hidden shadow-lg" >
+            <img class="w-full" src="obmlibras/14.png" style="width:600px; height:350px;" onclick="showModal('obmlibras/14.png')" />
+            </div>
+          </section>
+          <section class="flex-shrink-0 m-6">
+            <div class="max-w-sm rounded overflow-hidden shadow-lg" >
+            <img class="w-full" src="obmlibras/15.png" style="width:600px; height:350px;" onclick="showModal('obmlibras/15.png')" />
             </div>
           </section>
         </div>
       </div>
-      
-    </section>
-
-    <!-- ExtraCurriculars title-->
-    <section class="bg-white border-b py-8">
-      <div class="container max-w-2xl mx-auto m-8">
-        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white bg-indigo-600">
-          Extracurriculars!
-        </h2>
-      </div>
-           
-    </section>
-
-    <!--Extracurriculars OBMLibras-->
-    <section class="bg-white border-b py-8">
-      <section class="bg-white border-b py-8">
-        <div class="container w-full mx-auto m-8">
-          <iframe class="embed-responsive-item w-full h-50" id="ytplayer3" type="text/html" width="1024" height="620" frameborder="0" src="https://www.youtube.com/embed/5Q3NRtq-cmE?&loop=1&playlist=5Q3NRtq-cmE" frameborder="0" allowfullscreen></iframe>
-      </div>
-      </section> 
-      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-        OBMLibras
-      </h2>
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-      </div>
-      <div class="container max-w-7xl mx-auto m-8">
+    </section>  
+    <!--Experience of a student  -->
+    <section class="gradient-obmlibras border-b py-8">
+      <div class="container max-w-7xl mx-auto">
         <div class="flex flex-wrap">
           <div class="w-full sm:w-1/2 p-6">
-            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3 hidden">
-            Title
-            </h3>
-            <p class="text-gray-600 text-1xl text-justify m-8">
-              During my gap year, I co-founded the social project OBMLibras, <b>the first mathematics 
-                olympiad in sign language of Brazil</b>. In partnership with more than 10 companies and the US Embassy, 
-              ​​we offer awards such as medals, book kits, summer programs at universities in Brazil, and  scholarships 
-              for academic courses in sign language. <b>With international recognition</b>, in two years we have already 
-              <b>impacted more than 3 thousand deaf students from 16 Brazilian states and received 26 thousand brazilian 
-                reais of investment</b>. Furthermore, we are also developing  a Physics and Astronomy Olympiad, once again, 
-              being the first in Brazil to operate in this segment for people with disabilities.
-            </p>
-          </div>
-          <div class="w-full sm:w-1/2 p-6">
-            <section class="flex-shrink-0">      
-              <div class="container m-8">
-                  <img class="w-full" src="obmlibras/logo.png" style="width:500px; height: 350px;">      
-              </div>
-            </section> 
-          </div>          
-        </div>
-      </div>
-      <!--Galeria Obmlibras-->
-      <section class="mb-8">
-        <div class="container max-w-8xl mx-auto">
-          <div class="flex overflow-x-scroll space-x-8 w-1/1">  
-            <section class="flex-shrink-0 m-6">      
-              <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                  <img class="w-full" src="obmlibras/1.png" style="width:600px; height:350px;">      
-              </div>
-            </section>
-            <section class="flex-shrink-0 m-6">      
-              <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                  <img class="w-full" src="obmlibras/2.png">      
-              </div>
-            </section>
-            <section class="flex-shrink-0 m-6">      
-              <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                  <img class="w-full" src="obmlibras/3.png">      
-              </div>
-            </section>  
-            <section class="flex-shrink-0 m-6">      
-              <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                  <img class="w-full" src="obmlibras/4.png">      
-              </div>
-            </section>  
-            <section class="flex-shrink-0 m-6">      
-              <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                  <img class="w-full" src="obmlibras/5.png">      
-              </div>
-            </section>  
-            <section class="flex-shrink-0 m-6">      
-              <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                  <img class="w-full" src="obmlibras/6.png">      
-              </div>
-            </section>  
-            <section class="flex-shrink-0 m-6">      
-              <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                  <img class="w-full" src="obmlibras/7.png">      
-              </div>
-            </section>  
-            <section class="flex-shrink-0 m-6">      
-              <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                  <img class="w-full" src="obmlibras/8.png">      
-              </div>
-            </section>  
-            <section class="flex-shrink-0 m-6">      
-              <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                  <img class="w-full" src="obmlibras/9.png">      
-              </div>
-            </section>  
-            <section class="flex-shrink-0 m-6">      
-              <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                  <img class="w-full" src="obmlibras/10.png">      
-              </div>
-            </section>  
-            <section class="flex-shrink-0 m-6">      
-              <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                  <img class="w-full" src="obmlibras/11.png">      
-              </div>
-            </section>  
-            <section class="flex-shrink-0 m-6">      
-              <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                  <img class="w-full" src="obmlibras/12.png">      
-              </div>
-            </section>  
-            <section class="flex-shrink-0 m-6">      
-              <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                  <img class="w-full" src="obmlibras/13.png">      
-              </div>
-            </section>  
-            <section class="flex-shrink-0 m-6">      
-              <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                  <img class="w-full" src="obmlibras/14.png">      
-              </div>
-            </section>  
-            <section class="flex-shrink-0 m-6">      
-              <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                  <img class="w-full" src="obmlibras/15.png">      
-              </div>
-            </section>  
-          </div>
-        </div>
-      </section>
-      <!--Experience of a student  -->
-      <section class="gradient-obmlibras border-b py-8">
-        <div class="container max-w-7xl mx-auto">
-          <div class="flex flex-wrap">
-            <div class="w-full sm:w-1/2 p-6">
-              <div class="container w-full mx-auto m-8">
-                <iframe class="embed-responsive-item w-full h-50" id="ytplayer2" type="text/html" width="1024" height="320" frameborder="0" src="https://www.youtube.com/embed/LINX9B7Ea40?&loop=1&playlist=LINX9B7Ea40" frameborder="0" allowfullscreen></iframe>
-              </div>  
-            </div>
-            <div class="w-full sm:w-1/2 p-6">
-              <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                <h2 class="w-full my-2 text-5xl font-bold leading-tight text-justify text-white">
-                  Experience of a student 
-                </h2>
-              </h3>
-              <p class="text-white text-1xl text-justify mb-8">
-                Students participating in the olympiad declared that they <b>loved an opportunity where they 
-                  could use their own language</b>. Vitor won second place in the elementary school category, 
-                he mentioned that on the day of the olympiad he studied a lot to be able to take the test
-                 in the afternoon. <b>The OBMLibras inspired him to study Math in a deep way</b> . While he was 
-                 waiting for the results he was nervous ,not feeling really confident, but when he found
-                  out that he won the  second place he started to cry because he was extremely happy.
-              </p>
-            </div>            
-          </div>
-        </div>
-      </section>    
-    </section>
-
-    <!--Extracurriculars Hortitude-->
-    <section class="bg-white border-b py-8">
-      <section class="bg-white border-b py-8">
-        <div class="container w-full mx-auto m-8">
-          <iframe class="embed-responsive-item w-full h-50" id="ytplayer2" type="text/html" width="1024" height="620" frameborder="0" src="https://www.youtube.com/embed/UVkrgrb5zHw?&loop=1&playlist=UVkrgrb5zHw" frameborder="0" allowfullscreen></iframe>
-      </div>
-      </section> 
-      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-        Hortitude
-      </h2>
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-      </div>
-      <div class="container max-w-7xl mx-auto m-8">
-        <div class="flex flex-wrap">
-          <div class="w-full sm:w-1/2 p-6">
-            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3 hidden">
-             Title
-            </h3>
-            <p class="text-gray-600 text-1xl text-justify mb-8">
-              During my high school, I founded the “Hortitude” project, a <b>community garden 
-                that aims to offer healthy food to public school students</b>. To improve local sustainability, 
-              the project is made of objects that would be thrown away, like car tires. “Hortitude” 
-              is the combination of the words garden plus attitude in portuguese. I strongly believe 
-              that only through actions I can  be the change I hope to see in my community.<b> The project 
-                has already impacted more than 2,000 low income students and  150 kg of food were donated</b>.
-               Hortitude was the first vegetable garden created at my school, Eugênia Vilhena de Morais, 
-               by this initiative we became <b>a reference of sustainable projects in the city</b>.
-            </p>
-          </div>
-          <div class="w-full sm:w-1/2 p-6">
-            <div class="container max-w-8xl mx-auto">
-              <div class="flex overflow-x-scroll space-x-8 w-1/1">
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                      <img class="w-full" src="hortitude/logo.jpeg" style="width:600px; height:350px;">      
-                  </div>
-                </section>  
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                      <img class="w-full" src="hortitude/1.png" style="width:600px; height:350px;">      
-                  </div>
-                </section>
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="hortitude/2.png">      
-                  </div>
-                </section>
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="hortitude/3.png">      
-                  </div>
-                </section>
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="hortitude/4.png">      
-                  </div>
-                </section>     
-              </div>
-            </div>  
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--Prudential Emerging Visionaries Awards  -->
-    <section class="bg-white border-b py-8">
-      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-        Prudential Emerging Visionaries  
-      </h2>
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-      </div>
-      <div class="container max-w-7xl mx-auto m-8">
-        <div class="flex flex-wrap">
-          <div class="w-full sm:w-1/2 p-6">
-            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3 hidden">
-             Title
-            </h3>
-            <p class="text-gray-600 text-1xl text-justify mb-8">
-              During my gap year, I was a gold medalist in the Prudential Young Visionaries Awards. 
-              <b>My project OBMLibras stood out among submissions from all over Brazil, being awarded
-                as the best social project</b>. As an honoree, I received international recognition and 
-              25 thousand reais to invest in my project. Furthermore, <b>I was one of 8 international 
-                students selected worldwide to be recognized </b> in New York City in the Emerging Visionaries Prudential. 
-              The award ceremony selected international students from Japan, India, China, Brazil and domestic
-               students from the United States. In the program I was <b>one of the 2 Brazilians selected</b>. I had the honor 
-               of seeing my face in Times Square! Also, I improved my entrepreneurial skills while <b>I was pitching 
-                for international entrepreneurs</b>.
-            </p>
-          </div>
-          <div class="w-full sm:w-1/2 p-6">
-            <div class="container max-w-8xl mx-auto">
-              <div class="flex overflow-x-scroll space-x-8 w-1/1">
-                <section class="flex-shrink-0 m-6">        
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                      <img class="w-full" src="prudentials/1.png" style="width:600px; height:350px;">      
-                  </div>
-                </section>
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="prudentials/2.png">      
-                  </div>
-                </section>
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="prudentials/3.png">      
-                  </div>
-                </section>
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="prudentials/4.png">      
-                  </div>
-                </section>   
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="prudentials/5.png">      
-                  </div>
-                </section>   
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="prudentials/6.png">      
-                  </div>
-                </section>     
-              </div>
-            </div>  
-          </div>
-        </div>         
-      </div>
-      <!--Awarded  -->
-      <section class="gradient-prudentials border-b py-8">
-        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
-          Video of me being awarded
-        </h2>
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-        </div>
-        <div class="container max-w-7xl mx-auto m-8">
-          <div class="flex flex-wrap">
-            <div class="w-full sm:w-1/2 p-6">
-              <div class="container w-full mx-auto m-8 rounded shadow-lg">
-                <img class="w-full" style="width: 900px; height: 600px;" src="prudentials/awarded.png" >      
-              </div>
-            </div>
-            <div class="w-full sm:w-1/2 p-6">
-                <div class="max-w-8xl rounded shadow-lg">
-                  <div class="container w-full mx-auto m-8">
-                    <iframe class="embed-responsive-item w-full h-50" id="ytplayer3" type="text/html" width="900" height="600" frameborder="0" src="https://www.youtube.com/embed/nj6a2gMm05g?&loop=1&playlist=nj6a2gMm05g" frameborder="0" allowfullscreen></iframe>
-                </div>
-              </div>  
+            <div class="container w-full mx-auto m-8">
+              <iframe class="embed-responsive-item w-full h-50" id="ytplayer2" type="text/html" width="1024" height="320"
+                frameborder="0" src="https://www.youtube.com/embed/LINX9B7Ea40?&loop=1&playlist=LINX9B7Ea40"
+                frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
-        </div>
-      </section>
-    </section>
-
-    <!--Youth Ambassadors -->
-    <section class="bg-white border-b py-8">
-      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-        Youth Ambassadors
-      </h2>
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-      </div>
-      <div class="container max-w-7xl mx-auto m-8">
-        <div class="flex flex-wrap">
           <div class="w-full sm:w-1/2 p-6">
-            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3 hidden">
-            Title
-            </h3>
-            <p class="text-gray-600 text-1xl text-justify mb-8">
-               In 2022 I was <b>one of 50 students selected from 10,000 applications</b> to represent Brazil 
-               in the Youth Ambassadors exchange. The Youth Ambassadors Program is <b>an official initiative of 
-                the US Department of State and, in Brazil, is coordinated by the US Embassy and Consulates America</b>.
-               The program targets students from Brazil who are in public high school and who stand out in their 
-               respective communities for their <b>positive attitude, excellent academic performance, 
-                knowledge of the English language, leadership skills and entrepreneurial spirit</b>. After two years applying, 
-               in 2022 I went to Washington DC to learn about international relations and social actions for global problems.
-               In Chicago I visited NGOs, did volunteer work and was able to meet leaders from different parts of the world. 
-               In the program I developed my knowledge about Brazil, by having contact with young people from several states 
-               and <b>I developed a deep self knowledge of how I can use my skills to improve my country</b>.
-              <br/>
-            </p>
-          </div>
-          <div class="w-full sm:w-1/2 p-6">
-            <div class="container max-w-8xl mx-auto">
-              <div class="flex overflow-x-scroll space-x-8 w-1/1"> 
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                      <img class="w-full" src="youth/1.png" style="width:600px; height:350px;">      
-                  </div>
-                </section>
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="youth/2.png">      
-                  </div>
-                </section>
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="youth/3.png">      
-                  </div>
-                </section>
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="youth/4.png">      
-                  </div>
-                </section> 
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                      <img class="w-full" src="youth/5.png" style="width:600px; height:350px;">      
-                  </div>
-                </section>  
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                      <img class="w-full" src="youth/6.png" style="width:600px; height:350px;">      
-                  </div>
-                </section>     
-              </div>
-            </div>  
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--Mapa educação -->
-    <section class="bg-indigo-600 border-b py-8">
-      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
-        Mapa Educação 
-      </h2>
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-      </div>
-      <div class="container max-w-7xl mx-auto m-8">
-        <div class="flex flex-wrap">
-          <div class="w-full sm:w-1/2 p-6">
-            <div class="container max-w-8xl mx-auto">
-              <div class="flex overflow-x-scroll space-x-8 w-1/1">  
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                      <img class="w-full" src="map/1.png" style="width:600px; height:350px;">      
-                  </div>
-                </section>
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="map/2.png">      
-                  </div>
-                </section>
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="map/3.png">      
-                  </div>
-                </section>
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="map/4.png">      
-                  </div>
-                </section>  
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="map/5.png">      
-                  </div>
-                </section>  
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="map/6.png">      
-                  </div>
-                </section>     
-              </div>
-            </div>  
-          </div>
-          <div class="w-full sm:w-1/2 p-6">
-            <h3 class="text-3xl text-white font-bold leading-none mb-3 hidden">
-            Title
+            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+              <h2 class="w-full my-2 text-5xl font-bold leading-tight text-justify text-white">
+                Experience of a student
+              </h2>
             </h3>
             <p class="text-white text-1xl text-justify mb-8">
-              Mapa Educação is a non-governmental organization that believes that young people should be the
-              protagonist in changing the country. Our mission is that all Brazilians have access to quality
-              education and we work to make education a priority on the national political agenda.
-              During the one-year mentorship “Journey of the leader”, I had weekly masterclasses with ministers of justice,
-              Harvard students and members of the Brazilian government. <b>At the end of the initiative, I developed a capstone
-                project with other ambassadors aiming to tackle school evasion. With my active participation, 
-                I received the title of Leader Mapa Educação, an honor given only to outstanding ambassadors</b>. 
-              I currently work at Mapa to improve Brazilian public education for students with disabilities.
-              <br />
+              Students participating in the olympiad declared that they <b>loved an opportunity where they
+                could use their own language</b>. Vitor won second place in the elementary school category,
+              he mentioned that on the day of the olympiad he studied a lot to be able to take the test
+              in the afternoon. <b>The OBMLibras inspired him to study Math in a deep way</b> . While he was
+              waiting for the results he was nervous ,not feeling really confident, but when he found
+              out that he won the second place he started to cry because he was extremely happy.
             </p>
           </div>
         </div>
       </div>
     </section>
+  </section>
 
-    <!--Ashoka Young Changemakers -->
+  <!--Extracurriculars Hortitude-->
+  <section class="bg-white border-b py-8">
     <section class="bg-white border-b py-8">
-      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-        Ashoka Young Changemakers
-      </h2>
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-      </div>
-      <div class="container max-w-7xl mx-auto m-8">
-        <div class="flex flex-wrap">
-          <div class="w-full sm:w-1/2 p-6">
-            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3 hidden">
-             Title
-            </h3>
-            <p class="text-gray-600 text-1xl text-justify mb-8">
-              Ashoka has been a pioneer in the field of social entrepreneurship, with the objective of boosting social 
-              transformations through recognition and support for innovative social entrepreneurs. Ashoka Young Changemakers 
-              are a carefully selected network of <b>young people who have found their power to create change for the good of all around them</b>.
-              They engage their peers and societies in realizing a world where everyone is a changemaker. <b>After months of a rigorous selection
-                process with essays, national and international interviews, I was one of the 21 Brazilians selected to join the global network 
-                of Young Changemakers Ashoka</b>. Nowadays, I am a activist in favor of the movement a “A World of People who Transform”, 
-               inspiring other young people to be changemakers in their communities.<br />
-            </p>
-          </div>
-          <div class="w-full sm:w-1/2 p-6">
-            <div class="container max-w-8xl mx-auto">
-              <div class="flex overflow-x-scroll space-x-8 w-1/1">
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                      <img class="w-full" src="ashoka/1.png" style="width:600px; height:350px;">      
-                  </div>
-                </section>  
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                      <img class="w-full" src="ashoka/2.png" style="width:600px; height:350px;">      
-                  </div>
-                </section>
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="ashoka/3.png">      
-                  </div>
-                </section>
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="ashoka/4.png">      
-                  </div>
-                </section>
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="ashoka/5.png">      
-                  </div>
-                </section>    
-                <section class="flex-shrink-0 m-6">      
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
-                      <img class="w-full" src="ashoka/6.png">      
-                  </div>
-                </section>  
-              </div>
-            </div>  
-          </div>
-        </div>
+      <div class="container w-full mx-auto m-8">
+        <iframe class="embed-responsive-item w-full h-50" id="ytplayer2" type="text/html" width="1024" height="620"
+          frameborder="0" src="https://www.youtube.com/embed/UVkrgrb5zHw?&loop=1&playlist=UVkrgrb5zHw" frameborder="0"
+          allowfullscreen></iframe>
       </div>
     </section>
-        
-    <!-- Galery Photos  title  -->
-    <section class="bg-white border-b py-8">
-      <div class="container max-w-2xl mx-auto m-8">
-        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white bg-indigo-600">
-          Photo Gallery
-        </h2>
-      </div> 
-      <div class="container max-w-8xl mx-auto m-8">
-        <div class="flex overflow-x-scroll space-x-8 w-1/1">
-          <section class="flex-shrink-0 m-6">      
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-50 h-50" src="photogallery/1.png" onclick="showModal('photogallery/1.png')"/>      
-            </div>
-          </section>  
-          <section class="flex-shrink-0 m-6">      
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="photogallery/2.png" onclick="showModal('photogallery/2.png')">      
-            </div>
-          </section>
-          <section class="flex-shrink-0 m-6">      
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="photogallery/3.png" onclick="showModal('photogallery/3.png')">      
-            </div>
-          </section>
-          <section class="flex-shrink-0 m-6">      
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="photogallery/4.png" onclick="showModal('photogallery/4.png')">      
-            </div>
-          </section>
-          <section class="flex-shrink-0 m-6">      
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="photogallery/5.png" onclick="showModal('photogallery/5.png')">      
-            </div>
-          </section>     
-          <section class="flex-shrink-0 m-6">      
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="photogallery/6.png" onclick="showModal('photogallery/6.png')">      
-            </div>
-          </section>  
-          <section class="flex-shrink-0 m-6">      
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="photogallery/7.png" onclick="showModal('photogallery/7.png')">      
-            </div>
-          </section>
-          <section class="flex-shrink-0 m-6">      
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="photogallery/8.png" onclick="showModal('photogallery/8.png')">      
-            </div>
-          </section>
-        </div>
-      </div>          
-    </section>
-    
-    <!--Footer-->
-    <footer class="bg-white">
-      <div class="container mx-auto px-8">
-        <div class="w-full flex flex-col md:flex-row py-6">
-          <div class="flex-1 mb-6 text-black">
-            <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-              Maria Eduarda Portfolio
-            </a>
-          </div>
-          <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Whatsapp</p>
-            <ul class="list-reset mb-6">
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">                
-                <a href="https://api.whatsapp.com/send?phone=5516991401742">
-                  <p class="no-underline text-gray-800 hover:text-pink-600 hover:underline">+55(16)991401742</p>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">E-mail</p>
-            <ul class="list-reset mb-6">
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <p class="no-underline text-gray-800 hover:text-pink-600">eduarda06092003@gmail.com</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Overlay element -->
-    <div id="overlay" class="fixed hidden z-40 w-screen h-screen inset-0 bg-gray-900 bg-opacity-60"></div>
-
-    <!-- The Modal -->
-    <div id="modal"
-        class="hidden fixed m-3 top-0 left-0 z-40 w-screen h-screen bg-black/70 flex justify-center items-center">
-
-        <!-- The close button -->
-        <a class="fixed z-90 top-6 right-8 mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" href="javascript:void(0)"
-            onclick="closeModal()">FECHAR</a>
-
-        <!-- A big image will be displayed here -->
-        <img id="modal-img" class="" style="width: 800px; height: 800px;"/>
+    <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+      Hortitude
+    </h2>
+    <div class="w-full mb-4">
+      <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
     </div>
+    <div class="container max-w-7xl mx-auto m-8">
+      <div class="flex flex-wrap">
+        <div class="w-full sm:w-1/2 p-6">
+          <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3 hidden">
+            Title
+          </h3>
+          <p class="text-gray-600 text-1xl text-justify mb-8">
+            During my high school, I founded the “Hortitude” project, a <b>community garden
+              that aims to offer healthy food to public school students</b>. To improve local sustainability,
+            the project is made of objects that would be thrown away, like car tires. “Hortitude”
+            is the combination of the words garden plus attitude in portuguese. I strongly believe
+            that only through actions I can be the change I hope to see in my community.<b> The project
+              has already impacted more than 2.000 low income students and 150 kg of food were donated</b>.
+            Hortitude was the first vegetable garden created at my school, Eugênia Vilhena de Morais,
+            by this initiative we became <b>a reference of sustainable projects in the city</b>.
+          </p>
+        </div>
+        <div class="w-full sm:w-1/2 p-6">
+          <div class="container max-w-8xl mx-auto">
+            <div class="flex overflow-x-scroll space-x-8 w-1/1">
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="hortitude/logo.jpeg" style="width:600px; height:350px;"
+                    onclick="showModal('hortitude/logo.jpeg')" />
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="hortitude/1.png" style="width:600px; height:350px;"
+                    onclick="showModal('hortitude/1.png')" />
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
+                  <img class="w-full" src="hortitude/2.png" onclick="showModal('hortitude/2.png')"/>
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;">
+                <img class="w-full" src="hortitude/3.png" onclick="showModal('hortitude/3.png')"/>
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg" style="width:600px; height:350px;"
+                  onclick="showModal('hortitude/4.png')">
+                <img class="w-full" src="hortitude/4.png">
+                </div>
+              </section>
+  
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+
+  <!--Prudential Emerging Visionaries Awards  -->
+  <section class="bg-white border-b py-8">
+    <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+      Prudential Emerging Visionaries
+    </h2>
+    <div class="w-full mb-4">
+      <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+    </div>
+    <div class="container max-w-7xl mx-auto m-8">
+      <div class="flex flex-wrap">
+        <div class="w-full sm:w-1/2 p-6">
+          <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3 hidden">
+            Title
+          </h3>
+          <p class="text-gray-600 text-1xl text-justify mb-8">
+            During my gap year, I was a gold medalist in the Prudential Young Visionaries Awards.
+            <b>My project OBMLibras stood out among submissions from all over Brazil, being awarded
+              as the best social project</b>. As an honoree, I received international recognition and
+            25 thousand reais to invest in my project. Furthermore, <b>I was one of 8 international
+              students selected worldwide to be recognized </b> in New York City in the Emerging Visionaries Prudential.
+            The award ceremony selected international students from Japan, India, China, Brazil and domestic
+            students from the United States. In the program I was <b>one of the 2 Brazilians selected</b>. I had the
+            honor
+            of seeing my face in Times Square! Also, I improved my entrepreneurial skills while <b>I was pitching
+              for international entrepreneurs</b>.
+          </p>
+        </div>
+        <div class="w-full sm:w-1/2 p-6">
+          <div class="container max-w-8xl mx-auto">
+            <div class="flex overflow-x-scroll space-x-8 w-1/1">
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="prudentials/1.png" style="width:600px; height:350px;" onclick="showModal('prudentials/1.png')" />
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="prudentials/2.png" style="width:600px; height:350px;" onclick="showModal('prudentials/2.png')" />
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg" >
+                  <img class="w-full" src="prudentials/3.png" style="width:600px; height:350px;" onclick="showModal('prudentials/3.png')" />
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="prudentials/4.png" style="width:600px; height:350px;" onclick="showModal('prudentials/4.png')" />
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="prudentials/5.png" style="width:600px; height:350px;" onclick="showModal('prudentials/5.png')" />
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="prudentials/6.png" style="width:600px; height:350px;" onclick="showModal('prudentials/6.png')" />
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="prudentials/7.png" style="width:600px; height:350px;" onclick="showModal('prudentials/7.png')" />
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="prudentials/8.png" style="width:600px; height:350px;" onclick="showModal('prudentials/8.png')" />
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--Awarded  -->
+  <section class="gradient-prudentials border-b py-8">
+    <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
+      Video of me being awarded
+    </h2>
+    <div class="w-full mb-4">
+      <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+    </div>
+    <div class="container max-w-7xl mx-auto m-8">
+      <div class="flex flex-wrap">
+        <div class="w-full sm:w-1/2 p-6">
+          <div class="container w-full mx-auto m-8 rounded shadow-lg">
+            <img class="w-full" style="width: 900px; height: 600px;" src="prudentials/awarded.png">
+          </div>
+        </div>
+        <div class="w-full sm:w-1/2 p-6">
+          <div class="max-w-8xl rounded shadow-lg">
+            <div class="container w-full mx-auto m-8">
+              <iframe class="embed-responsive-item w-full h-50" id="ytplayer3" type="text/html" width="900" height="600"
+                frameborder="0" src="https://www.youtube.com/embed/nj6a2gMm05g?&loop=1&playlist=nj6a2gMm05g"
+                frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </section>
+
+  <!--Youth Ambassadors -->
+  <section class="bg-white border-b py-8">
+    <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+      Youth Ambassadors
+    </h2>
+    <div class="w-full mb-4">
+      <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+    </div>
+    <div class="container max-w-7xl mx-auto m-8">
+      <div class="flex flex-wrap">
+        <div class="w-full sm:w-1/2 p-6">
+          <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3 hidden">
+            Title
+          </h3>
+          <p class="text-gray-600 text-1xl text-justify mb-8">
+            In 2022 I was <b>one of 50 students selected from 10.000 applications</b> to represent Brazil
+            in the Youth Ambassadors exchange. The Youth Ambassadors Program is <b>an official initiative of
+              the US Department of State and, in Brazil, is coordinated by the US Embassy and Consulates America</b>.
+            The program targets students from Brazil who are in public high school and who stand out in their
+            respective communities for their <b>positive attitude, excellent academic performance,
+              knowledge of the English language, leadership skills and entrepreneurial spirit</b>. After two years
+            applying,
+            in 2022 I went to Washington DC to learn about international relations and social actions for global
+            problems.
+            In Chicago I visited NGOs, did volunteer work and was able to meet leaders from different parts of the
+            world.
+            In the program I developed my knowledge about Brazil, by having contact with young people from several
+            states
+            and <b>I developed a deep self knowledge of how I can use my skills to improve my country</b>.
+            <br />
+          </p>
+        </div>
+        <div class="w-full sm:w-1/2 p-6">
+          <div class="container max-w-8xl mx-auto">
+            <div class="flex overflow-x-scroll space-x-8 w-1/1">
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="youth/1.png" style="width:600px; height:350px;" onclick="showModal('youth/1.png')" />
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="youth/2.png" style="width:600px; height:350px;" onclick="showModal('youth/2.png')" />
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="youth/3.png" style="width:600px; height:350px;" onclick="showModal('youth/3.png')" />
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="youth/4.png" style="width:600px; height:350px;" onclick="showModal('youth/4.png')" />
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="youth/5.png" style="width:600px; height:350px;" onclick="showModal('youth/5.png')" />
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="youth/6.png" style="width:600px; height:350px;" onclick="showModal('youth/6.png')" />
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Mapa educação -->
+  <section class="bg-indigo-600 border-b py-8">
+    <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
+      Mapa Educação
+    </h2>
+    <div class="w-full mb-4">
+      <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+    </div>
+    <div class="container max-w-7xl mx-auto m-8">
+      <div class="flex flex-wrap">
+        <div class="w-full sm:w-1/2 p-6">
+          <div class="container max-w-8xl mx-auto">
+            <div class="flex overflow-x-scroll space-x-8 w-1/1">
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="map/1.png" style="width:600px; height:350px;" onclick="showModal('map/1.png')" />
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="map/2.png" style="width:600px; height:350px;" onclick="showModal('map/2.png')"/>
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="map/3.png" style="width:600px; height:350px;" onclick="showModal('map/3.png')"/>
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="map/4.png" style="width:600px; height:350px;" onclick="showModal('map/4.png')"/>
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="map/5.png" style="width:600px; height:350px;" onclick="showModal('map/5.png')"/>
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="map/6.png" style="width:600px; height:350px;" onclick="showModal('map/6.png')"/>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="w-full sm:w-1/2 p-6">
+          <h3 class="text-3xl text-white font-bold leading-none mb-3 hidden">
+            Title
+          </h3>
+          <p class="text-white text-1xl text-justify mb-8">
+            Mapa Educação is a non-governmental organization that believes that young people should be the
+            protagonist in changing the country. Our mission is that all Brazilians have access to quality
+            education and we work to make education a priority on the national political agenda.
+            During the one-year mentorship “Journey of the leader”, I had weekly masterclasses with ministers of
+            justice,
+            Harvard students and members of the Brazilian government. <b>At the end of the initiative, I developed a
+              capstone
+              project with other ambassadors aiming to tackle school evasion. With my active participation,
+              I received the title of Leader Mapa Educação, an honor given only to outstanding ambassadors</b>.
+            I currently work at Mapa to improve Brazilian public education for students with disabilities.
+            <br />
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Ashoka Young Changemakers -->
+  <section class="bg-white border-b py-8">
+    <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+      Ashoka Young Changemakers
+    </h2>
+    <div class="w-full mb-4">
+      <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+    </div>
+    <div class="container max-w-7xl mx-auto m-8">
+      <div class="flex flex-wrap">
+        <div class="w-full sm:w-1/2 p-6">
+          <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3 hidden">
+            Title
+          </h3>
+          <p class="text-gray-600 text-1xl text-justify mb-8">
+            Ashoka has been a pioneer in the field of social entrepreneurship, with the objective of boosting social
+            transformations through recognition and support for innovative social entrepreneurs. Ashoka Young
+            Changemakers
+            are a carefully selected network of <b>young people who have found their power to create change for the good
+              of all around them</b>.
+            They engage their peers and societies in realizing a world where everyone is a changemaker. <b>After months
+              of a rigorous selection
+              process with essays, national and international interviews, I was one of the 21 Brazilians selected to
+              join the global network
+              of Young Changemakers Ashoka</b>. Nowadays, I am a activist in favor of the movement a “A World of People
+            who Transform”,
+            inspiring other young people to be changemakers in their communities.<br />
+          </p>
+        </div>
+        <div class="w-full sm:w-1/2 p-6">
+          <div class="container max-w-8xl mx-auto">
+            <div class="flex overflow-x-scroll space-x-8 w-1/1">
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="ashoka/1.png" style="width:600px; height:350px;" onclick="showModal('ashoka/1.png')"/>
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="ashoka/2.png" style="width:600px; height:350px;" onclick="showModal('ashoka/2.png')"/>
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="ashoka/3.png" style="width:600px; height:350px;" onclick="showModal('ashoka/3.png')"/>
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="ashoka/4.png" style="width:600px; height:350px;" onclick="showModal('ashoka/4.png')"/>
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="ashoka/5.png" style="width:600px; height:350px;" onclick="showModal('ashoka/5.png')"/>
+                </div>
+              </section>
+              <section class="flex-shrink-0 m-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="ashoka/6.png" style="width:600px; height:350px;" onclick="showModal('ashoka/6.png')"/>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galery Photos  title  -->
+  <section class="bg-white border-b py-8">
+    <div class="container max-w-2xl mx-auto m-8">
+      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white bg-indigo-600">
+        Photo Gallery
+      </h2>
+    </div>
+    <div class="container max-w-8xl mx-auto m-8">
+      <div class="flex overflow-x-scroll space-x-8 w-1/1">
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-50 h-50" src="photogallery/1.png" onclick="showModal('photogallery/1.png')" />
+          </div>
+        </section>
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="photogallery/2.png" onclick="showModal('photogallery/2.png')">
+          </div>
+        </section>
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="photogallery/3.png" onclick="showModal('photogallery/3.png')">
+          </div>
+        </section>
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="photogallery/4.png" onclick="showModal('photogallery/4.png')">
+          </div>
+        </section>
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="photogallery/5.png" onclick="showModal('photogallery/5.png')">
+          </div>
+        </section>
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="photogallery/6.png" onclick="showModal('photogallery/6.png')">
+          </div>
+        </section>
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="photogallery/7.png" onclick="showModal('photogallery/7.png')">
+          </div>
+        </section>
+        <section class="flex-shrink-0 m-6">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="photogallery/8.png" onclick="showModal('photogallery/8.png')">
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="bg-white">
+    <div class="container mx-auto px-8">
+      <div class="w-full flex flex-col md:flex-row py-6">
+        <div class="flex-1 mb-6 text-black">
+          <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+            Maria Eduarda Portfolio
+          </a>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Whatsapp</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="https://api.whatsapp.com/send?phone=5516991401742">
+                <p class="no-underline text-gray-800 hover:text-pink-600 hover:underline">+55(16)991401742</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">E-mail</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <p class="no-underline text-gray-800 hover:text-pink-600">eduarda06092003@gmail.com</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Overlay element -->
+  <div id="overlay" class="fixed hidden z-40 w-screen h-screen inset-0 bg-gray-900 bg-opacity-60"></div>
+
+  <!-- The Modal -->
+  <div id="modal"
+    class="hidden fixed m-3 top-0 left-0 z-40 w-screen h-screen bg-black/70 flex justify-center items-center">
+
+    <!-- The close button -->
+    <a class="fixed z-90 top-6 right-8 mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+      href="javascript:void(0)" onclick="closeModal()">Close</a>
+
+    <!-- A big image will be displayed here -->
+    <img id="modal-img" class="" style="width: 800px; height: 800px;" />
+  </div>
 
 
-    <script>
-      var scrollpos = window.scrollY;
-      var header = document.getElementById("header");
-      var navcontent = document.getElementById("nav-content");
-      var navaction = document.getElementById("navAction");
-      var brandname = document.getElementById("brandname");
-      var toToggle = document.querySelectorAll(".toggleColour");
+  <script>
+    var scrollpos = window.scrollY;
+    var header = document.getElementById("header");
+    var navcontent = document.getElementById("nav-content");
+    var navaction = document.getElementById("navAction");
+    var brandname = document.getElementById("brandname");
+    var toToggle = document.querySelectorAll(".toggleColour");
 
-      document.addEventListener("scroll", function () {
-        /*Apply classes for slide in bar*/
-        scrollpos = window.scrollY;
+    document.addEventListener("scroll", function () {
+      /*Apply classes for slide in bar*/
+      scrollpos = window.scrollY;
 
-        if (scrollpos > 10) {
-          header.classList.add("bg-white");
-          navaction.classList.remove("bg-white");
-          navaction.classList.add("gradient");
-          navaction.classList.remove("text-gray-800");
-          navaction.classList.add("text-white");
-          //Use to switch toggleColour colours
-          for (var i = 0; i < toToggle.length; i++) {
-            toToggle[i].classList.add("text-gray-800");
-            toToggle[i].classList.remove("text-white");
-          }
-          header.classList.add("shadow");
-          navcontent.classList.remove("bg-gray-100");
-          navcontent.classList.add("bg-white");
-        } else {
-          header.classList.remove("bg-white");
-          navaction.classList.remove("gradient");
-          navaction.classList.add("bg-white");
-          navaction.classList.remove("text-white");
-          navaction.classList.add("text-gray-800");
-          //Use to switch toggleColour colours
-          for (var i = 0; i < toToggle.length; i++) {
-            toToggle[i].classList.add("text-white");
-            toToggle[i].classList.remove("text-gray-800");
-          }
-
-          header.classList.remove("shadow");
-          navcontent.classList.remove("bg-white");
-          navcontent.classList.add("bg-gray-100");
+      if (scrollpos > 10) {
+        header.classList.add("bg-white");
+        navaction.classList.remove("bg-white");
+        navaction.classList.add("gradient");
+        navaction.classList.remove("text-gray-800");
+        navaction.classList.add("text-white");
+        //Use to switch toggleColour colours
+        for (var i = 0; i < toToggle.length; i++) {
+          toToggle[i].classList.add("text-gray-800");
+          toToggle[i].classList.remove("text-white");
         }
-      });
-    </script>
-    
-    <script>
-      /*Toggle dropdown list*/
-      /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+        header.classList.add("shadow");
+        navcontent.classList.remove("bg-gray-100");
+        navcontent.classList.add("bg-white");
+      } else {
+        header.classList.remove("bg-white");
+        navaction.classList.remove("gradient");
+        navaction.classList.add("bg-white");
+        navaction.classList.remove("text-white");
+        navaction.classList.add("text-gray-800");
+        //Use to switch toggleColour colours
+        for (var i = 0; i < toToggle.length; i++) {
+          toToggle[i].classList.add("text-white");
+          toToggle[i].classList.remove("text-gray-800");
+        }
 
-      var navMenuDiv = document.getElementById("nav-content");
-      var navMenu = document.getElementById("nav-toggle");
-      var presentation = document.getElementById("personal_presentation");
+        header.classList.remove("shadow");
+        navcontent.classList.remove("bg-white");
+        navcontent.classList.add("bg-gray-100");
+      }
+    });
+  </script>
 
-      document.onclick = check;
-      function check(e) {
-        var target = (e && e.target) || (event && event.srcElement);
+  <script>
+    /*Toggle dropdown list*/
+    /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
 
-        //Nav Menu
-        if (!checkParent(target, navMenuDiv)) {
-          // click NOT on the menu
-          if (checkParent(target, navMenu)) {
-            // click on the link
-            if (navMenuDiv.classList.contains("hidden")) {
-              navMenuDiv.classList.remove("hidden");
-            } else {
-              navMenuDiv.classList.add("hidden");
-            }
+    var navMenuDiv = document.getElementById("nav-content");
+    var navMenu = document.getElementById("nav-toggle");
+    var presentation = document.getElementById("personal_presentation");
+
+    document.onclick = check;
+    function check(e) {
+      var target = (e && e.target) || (event && event.srcElement);
+
+      //Nav Menu
+      if (!checkParent(target, navMenuDiv)) {
+        // click NOT on the menu
+        if (checkParent(target, navMenu)) {
+          // click on the link
+          if (navMenuDiv.classList.contains("hidden")) {
+            navMenuDiv.classList.remove("hidden");
           } else {
-            // click both outside link and outside menu, hide menu
             navMenuDiv.classList.add("hidden");
           }
+        } else {
+          // click both outside link and outside menu, hide menu
+          navMenuDiv.classList.add("hidden");
         }
       }
-      function checkParent(t, elm) {
-        while (t.parentNode) {
-          if (t == elm) {
-            return true;
-          }
-          t = t.parentNode;
+    }
+    function checkParent(t, elm) {
+      while (t.parentNode) {
+        if (t == elm) {
+          return true;
         }
-        return false;
+        t = t.parentNode;
       }
-    </script>
+      return false;
+    }
+  </script>
 
-    <script>
-      // Get the overlay by id
-      var overlay = document.getElementById('overlay');
-      
-      // Get the modal by id
-      var modal = document.getElementById("modal");
+  <script>
+    // Get the overlay by id
+    var overlay = document.getElementById('overlay');
 
-      // Get the modal image tag
-      var modalImg = document.getElementById("modal-img");
+    // Get the modal by id
+    var modal = document.getElementById("modal");
 
-      // this function is called when a small image is clicked
-      function showModal(src) {
-          overlay.classList.remove('hidden');
-          modal.classList.remove('hidden');
-          modalImg.src = src;          
-      }
+    // Get the modal image tag
+    var modalImg = document.getElementById("modal-img");
 
-      // this function is called when the close button is clicked
-      function closeModal() {
-          overlay.classList.add('hidden');
-          modal.classList.add('hidden');
-      }
-    </script>
+    // this function is called when a small image is clicked
+    function showModal(src) {
+      overlay.classList.remove('hidden');
+      modal.classList.remove('hidden');
+      modalImg.src = src;
+    }
 
-  </body>
+    // this function is called when the close button is clicked
+    function closeModal() {
+      overlay.classList.add('hidden');
+      modal.classList.add('hidden');
+    }
+  </script>
+
+</body>
+
 </html>
